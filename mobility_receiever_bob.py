@@ -29,7 +29,7 @@ import time
 from lora_min import SX1276
 
 # ---------------- CONFIG ----------------
-RX_NAME = "eve"           # "bob" or "eve"
+RX_NAME = "bob"           # "bob" or "eve"
 RUN_ID_FILTER = None      # set to an int to only log a single run_id, else None
 DISTANCE_CM = 200           # set before each 5cm step (0,5,10,...)
 LOG_PATH = "mobility.csv"
